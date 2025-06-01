@@ -135,7 +135,7 @@ def question2():
     print(" qui a pour valeur",max(Duree_ensoleillement)) 
     
     
-question2()
+#question2()
 
 # On remarque que la valeur maximale de la température minimale est inférieur à la
 # valeure minimale de la température maximale de plus on constate une grande différence de 
@@ -503,8 +503,8 @@ def question15():
     
 #question15()
 
-
 """
+
 # Supposons : Temperature_maximale2 = 12 mois 2023 + 12 mois 2024
 X_full = []
 y = []
