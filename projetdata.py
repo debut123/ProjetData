@@ -503,7 +503,7 @@ def question15():
     
 #question15()
 
-"""
+
 
 # Supposons : Temperature_maximale2 = 12 mois 2023 + 12 mois 2024
 X_full = []
@@ -548,10 +548,10 @@ for k in range(1, 12):
 mois = [f"Mois-{i+1}" for i in range(12)]
 mois_choisis = [mois[i] for i in meilleure_combinaison]
 
-print("✅ Meilleur R² ajusté :", round(meilleur_r2_adj, 4))
-print("📊 Mois sélectionnés :", mois_choisis)
-print("📈 Coefficients :", meilleur_modele.coef_)
-print("📍 Interception :", meilleur_modele.intercept_)
+print(" Meilleur R² ajusté :", round(meilleur_r2_adj, 4))
+print("Mois sélectionnés :", mois_choisis)
+print(" Coefficients :", meilleur_modele.coef_)
+print("Interception :", meilleur_modele.intercept_)
 
 # Régression OLS statsmodels
 X_best = X_full[:, meilleure_combinaison]
@@ -636,5 +636,5 @@ print(f"\n🌡️ Prédiction janvier 2025 : {prediction_janv2025:.2f} °C")
 print(f"🌡️ Mesure réelle janvier 2025 : {reelle_janv2025:.2f} °C")
 print(f"📏 Écart : {ecart:.2f} °C")
 
-"""
+
 
